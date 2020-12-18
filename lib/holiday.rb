@@ -87,7 +87,7 @@ holiday_hash.each do |season, holidays|
   season_str = season.to_s.split("_").map(&:capitalize).join(" ")
   puts "#{season_str}:"
   holidays.each do |holiday, supplies|
-    holiday_str = holiday.to_s.capitalize
+    holiday_str = holiday.to_s.split("_").map(&:capitalize).join(" ")
     i = 0
     while i < supplies.length 
     supplies.map {|item| item.capitalize}
