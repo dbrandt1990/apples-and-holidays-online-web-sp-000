@@ -85,7 +85,7 @@ def all_supplies_in_holidays(holiday_hash)
 
 holiday_hash.each do |season, holidays|
   season_str = season.to_s
-  puts season
+  puts season_str
   holidays.each do |holiday, supplies|
     
   end
