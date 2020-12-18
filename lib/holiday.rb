@@ -93,7 +93,7 @@ holiday_hash.each do |season, holidays|
     supplies[i] = supplies[i].capitalize
     i = i + 1
   end
-  puts "  #{holiday_str}: #{supplies.join(", ").strip} "
+  puts "  #{holiday_str}: #{supplies.join(", ").strip!} "
   end
 end
 end
