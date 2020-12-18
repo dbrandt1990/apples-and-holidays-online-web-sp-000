@@ -84,7 +84,7 @@ def all_supplies_in_holidays(holiday_hash)
   # etc.
 
 holiday_hash.each do |season, holidays|
-  season_str = season.to_s
+  season_str = season.to_s.capitalize
   puts season_str
   holidays.each do |holiday, supplies|
     
